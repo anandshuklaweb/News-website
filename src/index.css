@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar ul li {
+  padding-right: 15px;
+  font-size: 18px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-brand {
+  padding-right: 40px;
+  font-size: 30px;
+}
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar .navbar-nav {
+  position: relative;
+  right: -50%;
+}
+
+.card img {
+  height: 240px;
+  object-fit: cover;
+}
+
+.footer-top {
+  background-color: #000;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #fff;
+  border-bottom: 1px solid #f2f2f2;
+}
+.footer-top h3 {
+  color: #bfbfbf;
+  font-weight: 500;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.footer-top p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #a9a7a7;
+}
+
+.footer-top ul li {
+  list-style: none;
+  font-size: 14px;
+  color: #a9a7a7;
+}
+
+.footer-top ul {
+  padding-left: 2px;
+}
+
+.footer-bottom {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0px;
+}
+
+.footer-bottom p {
+  color: #a9a7a7;
+  margin-bottom: 0px;
+  font-size: 13px;
+}
+
+.footer-bottom .design p {
+  text-align: right;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
+
+.ticker {
+  background-color: #815506;
+  color: #fff;
+  height: 40px;
+}
+.ticker h3 {
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin: 11px;
+}
+
+.card .badge {
+  right: 0;
 }
